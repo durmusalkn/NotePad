@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Genel">
+        <menu>
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_baseline_event_note_24"
+                android:title="Notlar" />
+            <item
+                android:id="@+id/addNote"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:title="Not Ekle" />
+            <item
+                android:id="@+id/sync"
+                android:icon="@drawable/ic_baseline_refresh_24"
+                android:title="Kaydol" />
+        </menu>
+    </item>
+    <item android:title="Yardım">
+        <menu>
+            <item
+                android:id="@+id/rating"
+                android:icon="@drawable/ic_baseline_star_half_24"
+                android:title="Uygulamaya Puan Ver" />
+
+            <item
+                android:id="@+id/shareapp"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Paylaş" />
+        </menu>
+    </item>
+
+    <!--<item android:title="Item" /> -->
+
+    <item android:title="Çıkış">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_vpn_key_24"
+                android:title="Çıkış" />
+        </menu>
+    </item>
+
+</menu>
