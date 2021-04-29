@@ -1,0 +1,2 @@
+# NotePad
+Not defteri uygulaması
